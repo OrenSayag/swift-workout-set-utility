@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F44F3F12B787C2300D11AED /* chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6F44F3F02B787C2300D11AED /* chime.mp3 */; };
+		6F44F3F32B787C3C00D11AED /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F44F3F22B787C3C00D11AED /* Audio.swift */; };
+		6F44F3F82B787D7300D11AED /* AudioPlayerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F44F3F72B787D7300D11AED /* AudioPlayerDemo.swift */; };
+		6F44F3FC2B787E8D00D11AED /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F44F3FB2B787E8D00D11AED /* Notifications.swift */; };
+		6F44F3FE2B78812D00D11AED /* NotificationDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F44F3FD2B78812D00D11AED /* NotificationDemo.swift */; };
+		6F44F4012B7888ED00D11AED /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F44F4002B7888ED00D11AED /* Stopwatch.swift */; };
+		6F44F4032B788BEB00D11AED /* StopwatchDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F44F4022B788BEB00D11AED /* StopwatchDemo.swift */; };
+		6F44F4052B78970A00D11AED /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F44F4042B78970A00D11AED /* Counter.swift */; };
+		6F44F4072B78A21700D11AED /* CounterDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F44F4062B78A21700D11AED /* CounterDemo.swift */; };
 		6F537B6A2B77CC27009CA909 /* workout_stopwatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F537B692B77CC27009CA909 /* workout_stopwatchApp.swift */; };
 		6F537B6C2B77CC27009CA909 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F537B6B2B77CC27009CA909 /* ContentView.swift */; };
 		6F537B6E2B77CC28009CA909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F537B6D2B77CC28009CA909 /* Assets.xcassets */; };
@@ -14,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F44F3F02B787C2300D11AED /* chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chime.mp3; sourceTree = "<group>"; };
+		6F44F3F22B787C3C00D11AED /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		6F44F3F72B787D7300D11AED /* AudioPlayerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerDemo.swift; sourceTree = "<group>"; };
+		6F44F3FB2B787E8D00D11AED /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		6F44F3FD2B78812D00D11AED /* NotificationDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDemo.swift; sourceTree = "<group>"; };
+		6F44F4002B7888ED00D11AED /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		6F44F4022B788BEB00D11AED /* StopwatchDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchDemo.swift; sourceTree = "<group>"; };
+		6F44F4042B78970A00D11AED /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		6F44F4062B78A21700D11AED /* CounterDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterDemo.swift; sourceTree = "<group>"; };
 		6F537B662B77CC27009CA909 /* workout-stopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "workout-stopwatch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F537B692B77CC27009CA909 /* workout_stopwatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workout_stopwatchApp.swift; sourceTree = "<group>"; };
 		6F537B6B2B77CC27009CA909 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +51,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F44F3EE2B787BEF00D11AED /* business-logic */ = {
+			isa = PBXGroup;
+			children = (
+				6F44F3F22B787C3C00D11AED /* Audio.swift */,
+				6F44F3FB2B787E8D00D11AED /* Notifications.swift */,
+				6F44F4002B7888ED00D11AED /* Stopwatch.swift */,
+				6F44F4042B78970A00D11AED /* Counter.swift */,
+			);
+			path = "business-logic";
+			sourceTree = "<group>";
+		};
+		6F44F3EF2B787BFF00D11AED /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6F44F3F02B787C2300D11AED /* chime.mp3 */,
+			);
+			path = sounds;
+			sourceTree = "<group>";
+		};
+		6F44F3F42B787D4A00D11AED /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6F44F3F52B787D5200D11AED /* demos */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		6F44F3F52B787D5200D11AED /* demos */ = {
+			isa = PBXGroup;
+			children = (
+				6F44F3F72B787D7300D11AED /* AudioPlayerDemo.swift */,
+				6F44F3FD2B78812D00D11AED /* NotificationDemo.swift */,
+				6F44F4022B788BEB00D11AED /* StopwatchDemo.swift */,
+				6F44F4062B78A21700D11AED /* CounterDemo.swift */,
+			);
+			path = demos;
+			sourceTree = "<group>";
+		};
 		6F537B5D2B77CC27009CA909 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +108,9 @@
 		6F537B682B77CC27009CA909 /* workout-stopwatch */ = {
 			isa = PBXGroup;
 			children = (
+				6F44F3F42B787D4A00D11AED /* views */,
+				6F44F3EF2B787BFF00D11AED /* sounds */,
+				6F44F3EE2B787BEF00D11AED /* business-logic */,
 				6F537B692B77CC27009CA909 /* workout_stopwatchApp.swift */,
 				6F537B6B2B77CC27009CA909 /* ContentView.swift */,
 				6F537B6D2B77CC28009CA909 /* Assets.xcassets */,
@@ -127,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F44F3F12B787C2300D11AED /* chime.mp3 in Resources */,
 				6F537B722B77CC28009CA909 /* Preview Assets.xcassets in Resources */,
 				6F537B6E2B77CC28009CA909 /* Assets.xcassets in Resources */,
 			);
@@ -139,8 +199,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F44F4032B788BEB00D11AED /* StopwatchDemo.swift in Sources */,
+				6F44F4072B78A21700D11AED /* CounterDemo.swift in Sources */,
+				6F44F3FC2B787E8D00D11AED /* Notifications.swift in Sources */,
+				6F44F3FE2B78812D00D11AED /* NotificationDemo.swift in Sources */,
+				6F44F4012B7888ED00D11AED /* Stopwatch.swift in Sources */,
+				6F44F3F82B787D7300D11AED /* AudioPlayerDemo.swift in Sources */,
+				6F44F4052B78970A00D11AED /* Counter.swift in Sources */,
 				6F537B6C2B77CC27009CA909 /* ContentView.swift in Sources */,
 				6F537B6A2B77CC27009CA909 /* workout_stopwatchApp.swift in Sources */,
+				6F44F3F32B787C3C00D11AED /* Audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -249,6 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -279,7 +349,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -317,7 +387,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
