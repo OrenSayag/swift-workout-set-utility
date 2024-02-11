@@ -19,7 +19,7 @@ struct StopwatchDemo: View {
                 )
                 
             },
-            limit: 5
+            limit: 55
         )
     }
 }

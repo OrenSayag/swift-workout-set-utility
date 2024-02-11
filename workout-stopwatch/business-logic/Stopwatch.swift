@@ -10,7 +10,7 @@ import SwiftUI
 struct Stopwatch: View {
 
     /// Current progress time expresed in ms
-    @State private var progressTime = 236
+    @State private var progressTime = 0
     @State private var isRunning = false
     @State private var startDate: Date?;
     @State private var cbCalled: Bool = false;
@@ -87,6 +87,7 @@ struct Stopwatch: View {
 
                 Button(action: {
                     progressTime = 0
+                    startDate = Date()
                 }) {
                     ZStack {
                         RoundedRectangle(cornerRadius: 15.0)
